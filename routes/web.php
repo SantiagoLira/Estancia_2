@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('plantilla');
 })->name('template');
+
+Route::get('menu', function () {
+    return view('menu');
+})->name('main_menu');

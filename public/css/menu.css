@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    }
+p{
+    color: azure;
+  }
+  body {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(4,27,61,1) 76%);
+    color: azure;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: transparent;
+  }
+  li a {
+    display: block;
+    color: azure;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
