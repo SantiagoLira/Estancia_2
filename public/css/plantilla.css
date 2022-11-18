@@ -1,48 +1,64 @@
-
 html {
     height: 100%;
-    }
+}
 /* body {
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(4,27,61,1) 76%);
     color: azure;
   } */
-  p{
+
+body {
+    min-height: 100%;
+    /* overflow: hidden; */
+    background-image: url("../img/Fondo_menu.jpg");
+    background-size: cover;;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: Signika Negative, sans-serif;
     color: azure;
-  }
-  body { 
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(4,27,61,1) 76%);
-    color: azure;
-    padding-top: 5em;
-    display: flex;
+    display: grid;
     justify-content: center;
-  }
+}
+h1 {
+  margin: 10px,0,10px;
+  text-align: center;
+  font-family: Signika Negative, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.btn {
+  border: none;
+  text-align:center;
+  cursor: pointer;
+  padding: 25px 80px;
+  margin: 0px 28px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  outline: none;
+  background-color:rgb(38, 38, 38);
+  border: solid 1px transparent;
+  border-radius:10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav {
+  margin:auto;
+  overflow:hidden;
+  background-color:#1d1d1d;
+  height:90%;
+}
+
+.instructions {
+  text-align:center;
+  margin-top:10px;
   
-  /* DEMO-SPECIFIC STYLES */
-  .typewriter h1 {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(16, 101, 230); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
-  }
-  .typewriter span{
-    color: azure;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(34, 98, 235) }
-  }
+}
+
+.wrapper {
+    display: grid;
+    font-family: Signika Negative, sans-serif;
+    color: rgb(255, 255, 255);
+    grid-auto-columns: min-content;
+    row-gap: 0;
+    grid-auto-rows: min-content;
+}
