@@ -14,13 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
     return view('plantilla');
 })->name('template');
 
-Route::get('menu', function () {
-    return view('menu');
-})->name('main_menu');
+Route::get('fruits', function () {
+    return view('frutas');
+});
+Route::get('colors', function () {
+    return view('colores');
+});
+
+Route::get('adjetives', function () {
+    return view('adjetivos');
+});
+
+Route::get('animals', function () {
+    return view('animales');
+});
