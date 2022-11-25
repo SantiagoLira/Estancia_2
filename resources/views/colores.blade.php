@@ -61,68 +61,68 @@ and is wrapped around the whole page content, except for the footer in this exam
                     </div>
                 </div>
 
-            <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                    <h3><b>Examples</b></h3>
-                </div>
-                <div class="row">
-                    <div class="card border-warning mb-3" style="width: 18rem;">
-                        <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">bob's house is a pinneaple</h5>
-                            <p class="card-text"></p>
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>Examples</b></h3>
+                    </div>
+                    <div class="row">
+                        <div class="card border-warning mb-3" style="width: 18rem;">
+                            <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">bob's house is a pinneaple</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-3" style="width: 18rem;">
+                            <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-3" style="width: 18rem;">
+                            <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Plankton eats Cucumbers</h5>
+                                <p class="card-text"></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card border-warning mb-3" style="width: 18rem;">
-                        <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-                            <p class="card-text"></p>
-                        </div>
+
+                </div>
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>Game</b></h3>
                     </div>
-                    <div class="card border-warning mb-3" style="width: 18rem;">
-                        <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Plankton eats Cucumbers</h5>
-                            <p class="card-text"></p>
-                        </div>
+                    <div class="text-center">
+                        <iframe src="https://scratch.mit.edu/projects/767232971/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
                     </div>
                 </div>
-
+                <!-- END BLOG ENTRIES -->
             </div>
 
-            <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                    <h3><b>Game</b></h3>
+            <!-- Introduction menu -->
+            <div class="w3-col l4">
+                <!-- About Card -->
+                <div class="w3-card w3-margin w3-margin-top">
+                    <img src="https://visionindustrial.com.mx/wp-content/uploads/2016/08/UPQ-logo.jpg" style="width:100%">
+                    <div class="w3-container w3-white">
+                        <h4><b>TeamWork</b></h4>
+                        <p>Los alumnos de isc desarrollaron una plataforma sencilla para el entendimiento de topicos de asignaturas</p>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <iframe src="https://scratch.mit.edu/projects/767208692/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-                </div>
-            </div>
-            <!-- END BLOG ENTRIES -->
-        </div>
+                <hr>
 
-        <!-- Introduction menu -->
-        <div class="w3-col l4">
-            <!-- About Card -->
-            <div class="w3-card w3-margin w3-margin-top">
-                <img src="https://visionindustrial.com.mx/wp-content/uploads/2016/08/UPQ-logo.jpg" style="width:100%">
-                <div class="w3-container w3-white">
-                    <h4><b>TeamWork</b></h4>
-                    <p>Los alumnos de isc desarrollaron una plataforma sencilla para el entendimiento de topicos de asignaturas</p>
-                </div>
-            </div>
-            <hr>
-
-            <!-- Posts -->
-            <div class="w3-card w3-margin">
-                <div class="w3-container w3-padding">
-                    <h4>Topics</h4>
-                </div>
-                <ul class="w3-ul w3-hoverable w3-white">
-                <a href="fruits">
+                <!-- Posts -->
+                <div class="w3-card w3-margin">
+                    <div class="w3-container w3-padding">
+                        <h4>Topics</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+                        <a href="fruits">
                             <li class="w3-padding-16">
 
                                 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
@@ -154,18 +154,18 @@ and is wrapped around the whole page content, except for the footer in this exam
                                 <span>Lorem ipsum dipsum</span>
                             </li>
                         </a>
-                </ul>
+                    </ul>
+                </div>
+                <hr>
+
+
+                <!-- END Introduction Menu -->
             </div>
-            <hr>
 
+            <!-- END GRID -->
+        </div><br>
 
-            <!-- END Introduction Menu -->
-        </div>
-
-        <!-- END GRID -->
-    </div><br>
-
-    <!-- END w3-content -->
+        <!-- END w3-content -->
     </div>
 
     <!-- Footer -->
