@@ -41,9 +41,9 @@ and is wrapped around the whole page content, except for the footer in this exam
             <div class="w3-col l8 s12">
                 <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
-                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg" alt="Nature" style="width:100%">
+                    <img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Nature" style="width:100%">
                     <div class="w3-container">
-                        <h3 class="text-center"><b>Fruits</b></h3>
+                        <h3 class="text-center"><b>adjectives</b></h3>
                     </div>
 
                 </div>
@@ -52,77 +52,93 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <div class="w3-card-4 w3-margin w3-white">
 
                     <div class="w3-container">
-                        <h3><b>Fruit chart</b></h3>
-                        <h5>Some fruits</h5>
+                        <h3><b>adjectives</b></h3>
+                        <h5>adjectives</h5>
                     </div>
 
                     <div class="w3-container">
-                        <img src="https://www.pngitem.com/pimgs/m/585-5851876_fruit-vegetable-flash-cards-busy-little-bugs-fruit.png" alt="Norway" style="width:100%">
+                        <img src="https://themumeducates.com/wp-content/uploads/2018/02/adj-banner-1.png" alt="Norway" style="width:100%">
+                        <p>
+                        Un adjetivo es una palabra que acompaña y modifica al nombre. Puede ampliar, complementar o cuantificar su tamaño. Son palabras que nombran o indican cualidades, rasgos y propiedades de los nombres o sustantivos a los que acompañan.
+                        </p>
                     </div>
                 </div>
 
-            <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                    <h3><b>Examples</b></h3>
-                </div>
-                <div class="row">
-                    <div class="card border-warning mb-3" style="width: 18rem;">
-                        <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">bob's house is a pinneaple</h5>
-                            <p class="card-text"></p>
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>Examples</b></h3>
+                    </div>
+                    <div class="row">
+                        <div class="card border-warning mb-3" style="width: 18rem;">
+                            <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">bob's house is a pinneaple</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-3" style="width: 18rem;">
+                            <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-3" style="width: 18rem;">
+                            <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Plankton eats Cucumbers</h5>
+                                <p class="card-text"></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card border-warning mb-3" style="width: 18rem;">
-                        <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-                            <p class="card-text"></p>
-                        </div>
+
+                </div>
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+
+                    <script type="text/javascript">
+                        function myFunction() {
+                            var x = document.getElementById("game");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+                    </script>
+                    <div class="w3-container text-center">
+                        <h3><b>Game</b></h3>
+                        <button class="btn btn-success" onclick="myFunction()">Start</button>
                     </div>
-                    <div class="card border-warning mb-3" style="width: 18rem;">
-                        <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Plankton eats Cucumbers</h5>
-                            <p class="card-text"></p>
-                        </div>
+                    <div class="text-center" id="game" style="display: none;">
+
+                        <iframe src="https://scratch.mit.edu/projects/767232971/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
                     </div>
                 </div>
-
+                <!-- END BLOG ENTRIES -->
             </div>
 
-            <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                    <h3><b>Game</b></h3>
+            <!-- Introduction menu -->
+            <div class="w3-col l4">
+                <!-- About Card -->
+                <div class="w3-card w3-margin w3-margin-top">
+                    <img src="https://visionindustrial.com.mx/wp-content/uploads/2016/08/UPQ-logo.jpg" style="width:100%">
+                    <div class="w3-container w3-white">
+                        <h4><b>TeamWork</b></h4>
+                        <p>Los alumnos de isc desarrollaron una plataforma sencilla para el entendimiento de topicos de asignaturas</p>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <iframe src="https://scratch.mit.edu/projects/767208692/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-                </div>
-            </div>
-            <!-- END BLOG ENTRIES -->
-        </div>
+                <hr>
 
-        <!-- Introduction menu -->
-        <div class="w3-col l4">
-            <!-- About Card -->
-            <div class="w3-card w3-margin w3-margin-top">
-                <img src="https://visionindustrial.com.mx/wp-content/uploads/2016/08/UPQ-logo.jpg" style="width:100%">
-                <div class="w3-container w3-white">
-                    <h4><b>TeamWork</b></h4>
-                    <p>Los alumnos de isc desarrollaron una plataforma sencilla para el entendimiento de topicos de asignaturas</p>
-                </div>
-            </div>
-            <hr>
-
-            <!-- Posts -->
-            <div class="w3-card w3-margin">
-                <div class="w3-container w3-padding">
-                    <h4>Topics</h4>
-                </div>
-                <ul class="w3-ul w3-hoverable w3-white">
-                <a href="fruits">
+                <!-- Posts -->
+                <div class="w3-card w3-margin">
+                    <div class="w3-container w3-padding">
+                        <h4>Topics</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+                        <a href="fruits">
                             <li class="w3-padding-16">
 
                                 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
@@ -141,9 +157,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="adjetives">
                             <li class="w3-padding-16">
 
-                                <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-                                <span class="w3-large">Adjetives</span><br>
-                                <span>Ultricies congue</span>
+                                <img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <span class="w3-large">adjectives</span><br>
+                                <span>vocabulary to describe</span>
                             </li>
                         </a>
                         <a href="animals">
@@ -151,21 +167,21 @@ and is wrapped around the whole page content, except for the footer in this exam
 
                                 <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Animals</span><br>
-                                <span>Lorem ipsum dipsum</span>
+                                <span>Vocabulary from animals</span>
                             </li>
                         </a>
-                </ul>
+                    </ul>
+                </div>
+                <hr>
+
+
+                <!-- END Introduction Menu -->
             </div>
-            <hr>
 
+            <!-- END GRID -->
+        </div><br>
 
-            <!-- END Introduction Menu -->
-        </div>
-
-        <!-- END GRID -->
-    </div><br>
-
-    <!-- END w3-content -->
+        <!-- END w3-content -->
     </div>
 
     <!-- Footer -->

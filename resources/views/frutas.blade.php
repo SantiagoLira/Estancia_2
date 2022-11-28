@@ -91,15 +91,28 @@ and is wrapped around the whole page content, except for the footer in this exam
                     </div>
                 </div>
 
-                <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
-                    <div class="w3-container">
+
+                    <script type="text/javascript">
+                        function myFunction() {
+                            var x = document.getElementById("game");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+                    </script>
+                    <div class="w3-container text-center">
                         <h3><b>Game</b></h3>
+                        <button class="btn btn-success" onclick="myFunction()">Start</button>
                     </div>
-                    <div class="text-center">
-                        <iframe src="https://scratch.mit.edu/projects/767208692/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                    <div class="text-center" id="game" style="display: none;">
+
+                    <iframe src="https://scratch.mit.edu/projects/767208692/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
                     </div>
                 </div>
+                
                 <!-- END BLOG ENTRIES -->
             </div>
 
@@ -140,15 +153,15 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="adjetives">
                             <li class="w3-padding-16">
 
-                                <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Adjetives</span><br>
-                                <span>Ultricies congue</span>
+                                <span>vocabulary to describe</span>
                             </li>
                         </a>
                         <a href="animals">
                             <li class="w3-padding-16 w3-hide-medium w3-hide-small">
 
-                                <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Animals</span><br>
                                 <span>Lorem ipsum dipsum</span>
                             </li>
