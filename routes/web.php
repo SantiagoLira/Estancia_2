@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('plantilla');
+    return view('template');
 })->name('template');
 
 Route::get('fruits', function () {
     return view('frutas');
 });
 Route::get('colors', function () {
-    return view('colores');
+    return view('colors');
 });
 
 Route::get('adjetives', function () {

@@ -1,23 +1,20 @@
 @extends('template')
 
 @section('titulo')
-<img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Nature" style="width:100%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Colouring_pencils.jpg" alt="Nature" style="width:100%">
 <div class="w3-container">
-    <h3 class="text-center"><b>adjectives</b></h3>
+    <h3 class="text-center"><b>Colors</b></h3>
 </div>
 @stop
 
 @section('contenido')
 <div class="w3-container">
-    <h3><b>adjectives</b></h3>
-    <h5>adjectives</h5>
+    <h3><b>Colors</b></h3>
+    <h5>Some Colors</h5>
 </div>
 
 <div class="w3-container">
-    <img src="https://themumeducates.com/wp-content/uploads/2018/02/adj-banner-1.png" alt="Norway" style="width:100%">
-    <p>
-        Un adjetivo es una palabra que acompaña y modifica al nombre. Puede ampliar, complementar o cuantificar su tamaño. Son palabras que nombran o indican cualidades, rasgos y propiedades de los nombres o sustantivos a los que acompañan.
-    </p>
+    <img src="https://www.mosalingua.com/es/files/2019/05/colores-en-ingles.jpg" alt="Norway" style="width:100%">
 </div>
 @stop
 

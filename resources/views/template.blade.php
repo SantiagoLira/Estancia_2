@@ -37,86 +37,6 @@ and is wrapped around the whole page content, except for the footer in this exam
         <!-- Grid -->
         <div class="w3-row">
 
-            <!-- Blog entries -->
-            <div class="w3-col l8 s12">
-                <!-- Blog entry -->
-                <div class="w3-card-4 w3-margin w3-white">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Colouring_pencils.jpg" alt="Nature" style="width:100%">
-                    <div class="w3-container">
-                        <h3 class="text-center"><b>Colors</b></h3>
-                    </div>
-
-                </div>
-                <hr>
-                <!-- Tabla de frutas -->
-                <div class="w3-card-4 w3-margin w3-white">
-
-                    <div class="w3-container">
-                        <h3><b>Colors</b></h3>
-                        <h5>Some Colors</h5>
-                    </div>
-
-                    <div class="w3-container">
-                        <img src="https://www.mosalingua.com/es/files/2019/05/colores-en-ingles.jpg" alt="Norway" style="width:100%">
-                    </div>
-                </div>
-
-                <!-- Blog entry -->
-                <div class="w3-card-4 w3-margin w3-white">
-                    <div class="w3-container">
-                        <h3><b>Examples</b></h3>
-                    </div>
-                    <div class="row">
-                        <div class="card border-warning mb-3" style="width: 18rem;">
-                            <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">bob's house is a pinneaple</h5>
-                                <p class="card-text"></p>
-                            </div>
-                        </div>
-                        <div class="card border-warning mb-3" style="width: 18rem;">
-                            <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-                                <p class="card-text"></p>
-                            </div>
-                        </div>
-                        <div class="card border-warning mb-3" style="width: 18rem;">
-                            <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Plankton eats Cucumbers</h5>
-                                <p class="card-text"></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Blog entry -->
-                <div class="w3-card-4 w3-margin w3-white">
-
-                    <script type="text/javascript">
-                        function myFunction() {
-                            var x = document.getElementById("game");
-                            if (x.style.display === "none") {
-                                x.style.display = "block";
-                            } else {
-                                x.style.display = "none";
-                            }
-                        }
-                    </script>
-                    <div class="w3-container text-center">
-                        <h3><b>Game</b></h3>
-                        <button class="btn btn-success" onclick="myFunction()">Start</button>
-                    </div>
-                    <div class="text-center" id="game" style="display: none;">
-
-                        <iframe src="https://scratch.mit.edu/projects/767232971/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <!-- END BLOG ENTRIES -->
-            </div>
-
             <!-- Introduction menu -->
             <div class="w3-col l4">
 
@@ -175,6 +95,43 @@ and is wrapped around the whole page content, except for the footer in this exam
 
                 <!-- END Introduction Menu -->
             </div>
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    @yield('titulo')
+
+
+                </div>
+                <hr>
+                <!-- Tabla de frutas -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    @yield('contenido')
+                </div>
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>Examples</b></h3>
+                    </div>
+                    <div class="row">
+                        @yield('ejemplos')
+
+                    </div>
+
+                </div>
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+
+                    @yield('juego')
+
+
+                </div>
+                <!-- END BLOG ENTRIES -->
+            </div>
+
+
 
             <!-- END GRID -->
         </div><br>
