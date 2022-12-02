@@ -75,7 +75,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="adjetives">
                             <li class="w3-padding-16">
 
-                                <img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="https://media.baamboozle.com/uploads/images/83220/1622471716_48790.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Adjetives</span><br>
                                 <span>vocabulary to describe</span>
                             </li>
@@ -83,7 +83,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="animals">
                             <li class="w3-padding-16 w3-hide-medium w3-hide-small">
 
-                                <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="https://static.euronews.com/articles/stories/06/35/04/38/1200x675_cmsv2_5f431498-214b-53cf-87e6-77815242eca4-6350438.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Animals</span><br>
                                 <span>Lorem ipsum dipsum</span>
                             </li>
