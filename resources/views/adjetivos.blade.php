@@ -1,49 +1,43 @@
 @extends('template')
 
 @section('titulo')
-<img src="https://www.thesaurus.com/e/wp-content/uploads/2021/08/20210716_adjectives_1000x700-790x310.png" alt="Nature" style="width:100%">
+<img src="img/adjetivosMain.jpeg" alt="Nature" style="width:100%">
 <div class="w3-container">
-    <h3 class="text-center"><b>adjectives</b></h3>
+    <h3 class="text-center"><b>Adjectives</b></h3>
 </div>
 @stop
 
 @section('contenido')
 <div class="w3-container">
-    <h3><b>adjectives</b></h3>
-    <h5>adjectives</h5>
-</div>
-
-<div class="w3-container">
-    <img src="https://themumeducates.com/wp-content/uploads/2018/02/adj-banner-1.png" alt="Norway" style="width:100%">
+    <h3><b>Adjectives</b></h3>
     <p>
         Un adjetivo es una palabra que acompaña y modifica al nombre. Puede ampliar, complementar o cuantificar su tamaño. Son palabras que nombran o indican cualidades, rasgos y propiedades de los nombres o sustantivos a los que acompañan.
     </p>
+    <br>
+</div>
+
+<div class="w3-container">
+    <img src="img/adjetivos.png" alt="Norway" style="width:100%">
+
 </div>
 @stop
 
 @section('ejemplos')
-<div class="card border-warning mb-3" style="width: 18rem;">
-    <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">bob's house is a pinneaple</h5>
-        <p class="card-text"></p>
-    </div>
+<div class="w3-container">
+    <h3><b>Examples</b></h3>
 </div>
-<div class="card border-warning mb-3" style="width: 18rem;">
-    <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-        <p class="card-text"></p>
-    </div>
+<div class="text-center">
+    <img src="img/ejemplosAdjetivos1.png" alt="Norway" style="width:50%">
+    <img src="img/ejemplosAdjetivos2.png" alt="Norway" style="width:50%">
 </div>
-<div class="card border-warning mb-3" style="width: 18rem;">
-    <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Plankton eats Cucumbers</h5>
-        <p class="card-text"></p>
-    </div>
+@stop
+@section('videos')
+<div class="w3-container">
+    <h3 class="text-center"><b>Video</b></h3>
 </div>
-
+<div class="w3-container text-center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d2RuO_fseyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 @stop
 
 @section('juego')

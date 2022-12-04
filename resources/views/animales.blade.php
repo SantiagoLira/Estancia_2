@@ -19,28 +19,32 @@
 @stop
 
 @section('ejemplos')
-<div class="card border-warning mb-3" style="width: 18rem;">
-    <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">bob's house is a pinneaple</h5>
-        <p class="card-text"></p>
+<div class="w3-container">
+    <h3><b>Examples</b></h3>
+</div>
+<div class="text-center">
+    <div class="card border-warning mb-3" style="width: 18rem;">
+        <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">bob's house is a pinneaple</h5>
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card border-warning mb-3" style="width: 18rem;">
+        <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card border-warning mb-3" style="width: 18rem;">
+        <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Plankton eats Cucumbers</h5>
+            <p class="card-text"></p>
+        </div>
     </div>
 </div>
-<div class="card border-warning mb-3" style="width: 18rem;">
-    <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-        <p class="card-text"></p>
-    </div>
-</div>
-<div class="card border-warning mb-3" style="width: 18rem;">
-    <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Plankton eats Cucumbers</h5>
-        <p class="card-text"></p>
-    </div>
-</div>
-
 @stop
 
 @section('juego')

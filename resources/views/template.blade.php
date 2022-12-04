@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -42,7 +43,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
                 <!-- About Card -->
                 <div class="w3-card w3-margin w3-margin-top">
-                    <img src="https://visionindustrial.com.mx/wp-content/uploads/2016/08/UPQ-logo.jpg" style="width:100%">
+                    <img src="img/UPQ-logo.jpg" style="width:100%">
                     <div class="w3-container w3-white">
                         <h4><b>TeamWork</b></h4>
                         <p>Los alumnos de isc desarrollaron una plataforma sencilla para el entendimiento de topicos de asignaturas</p>
@@ -59,7 +60,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="fruits">
                             <li class="w3-padding-16">
 
-                                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="img/frutasMain.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Fruits</span><br>
                                 <span>Vocabulary from fruits</span>
                             </li>
@@ -67,7 +68,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="colors">
                             <li class="w3-padding-16">
 
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Colouring_pencils.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="img/coloresMain.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Colors</span><br>
                                 <span>Vocabulary from colors</span>
                             </li>
@@ -75,15 +76,15 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <a href="adjetives">
                             <li class="w3-padding-16">
 
-                                <img src="https://media.baamboozle.com/uploads/images/83220/1622471716_48790.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-                                <span class="w3-large">Adjetives</span><br>
+                                <img src="img/adjetivosMain.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <span class="w3-large">Adjectives</span><br>
                                 <span>vocabulary to describe</span>
                             </li>
                         </a>
                         <a href="animals">
                             <li class="w3-padding-16 w3-hide-medium w3-hide-small">
 
-                                <img src="https://static.euronews.com/articles/stories/06/35/04/38/1200x675_cmsv2_5f431498-214b-53cf-87e6-77815242eca4-6350438.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                                <img src="img/animalesMain.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
                                 <span class="w3-large">Animals</span><br>
                                 <span>Lorem ipsum dipsum</span>
                             </li>
@@ -100,8 +101,6 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
                     @yield('titulo')
-
-
                 </div>
                 <hr>
                 <!-- Tabla de frutas -->
@@ -111,27 +110,18 @@ and is wrapped around the whole page content, except for the footer in this exam
 
                 <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
-                    <div class="w3-container">
-                        <h3><b>Examples</b></h3>
-                    </div>
-                    <div class="row">
                         @yield('ejemplos')
-
-                    </div>
-
                 </div>
 
+                <div class="w3-card-4 w3-margin w3-white">
+                    @yield('videos')
+            </div>
                 <!-- Blog entry -->
                 <div class="w3-card-4 w3-margin w3-white">
-
                     @yield('juego')
-
-
                 </div>
                 <!-- END BLOG ENTRIES -->
             </div>
-
-
 
             <!-- END GRID -->
         </div><br>
