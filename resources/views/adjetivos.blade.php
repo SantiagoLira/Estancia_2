@@ -20,6 +20,7 @@
     <img src="img/adjetivos.png" alt="Norway" style="width:100%">
 
 </div>
+<br>
 @stop
 
 @section('ejemplos')

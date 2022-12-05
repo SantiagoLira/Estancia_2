@@ -14,8 +14,9 @@
 </div>
 
 <div class="w3-container">
-    <img src="https://i.pinimg.com/originals/49/97/21/4997210b9e1271f02138d323608922ba.jpg" alt="Norway" style="width:100%">
+    <img src="img/AnimalsChart.png" alt="Norway" style="width:100%">
 </div>
+<br>
 @stop
 
 @section('ejemplos')

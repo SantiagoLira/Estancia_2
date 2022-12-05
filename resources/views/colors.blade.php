@@ -17,6 +17,7 @@
 <div class="w3-container">
     <img src="img/colores.jpg" alt="Norway" style="width:100%">
 </div>
+<br>
 @stop
 
 @section('ejemplos')
