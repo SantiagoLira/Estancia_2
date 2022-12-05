@@ -74,7 +74,7 @@
 
     <div class="d-grid gap-2">
         <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#Game">
-            Start
+        <i class="bi bi-play"></i>Start
         </button>
     </div>
     <br>

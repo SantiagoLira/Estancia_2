@@ -10,12 +10,12 @@
 @section('contenido')
 <div class="w3-container">
     <h3><b>Definition</b></h3>
-    <p>El color es una sensación que producen los rayos luminosos para ver tonos</p>
+    <p>"El color es una sensación que producen los rayos luminosos para ver tonos"</p>
     <h5>Some Colors</h5>
 </div>
 
 <div class="w3-container">
-    <img src="img/colores.jpg" alt="Norway" style="width:100%">
+<img src="img/colores.jpg" alt="Norway" style="width:100%">
 </div>
 <br>
 @stop
@@ -25,30 +25,10 @@
     <h3><b>Examples</b></h3>
 </div>
 <div class="text-center">
-    <div class="card border-warning mx-5 mb-3" style="width: 50%;">
-        <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">bob's house is a pinneaple</h5>
-            <p class="card-text"></p>
-        </div>
-    </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 50%;">
-        <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-            <p class="card-text"></p>
-        </div>
-    </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 50%;">
-        <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Plankton eats Cucumbers</h5>
-            <p class="card-text"></p>
-        </div>
-    </div>
-    <br>
+<img src="img/coloresBob.png" alt="Norway" style="width:100%">
+    
 </div>
-
+<br>
 @stop
 @section('videos')
 <div class="w3-container">
@@ -90,7 +70,7 @@
 
     <div class="d-grid gap-2">
         <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#Game">
-            Start
+        <i class="bi bi-play"></i>Start
         </button>
     </div>
 
