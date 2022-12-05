@@ -45,6 +45,7 @@
             <p class="card-text"></p>
         </div>
     </div>
+    <br>
 </div>
 
 @stop
@@ -80,7 +81,7 @@
 
         </div>
     </div>
-</div>
+</div>  
 
 
 <div class="w3-container text-center">

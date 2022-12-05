@@ -18,6 +18,7 @@
     <!-- <img src="https://www.pngitem.com/pimgs/m/585-5851876_fruit-vegetable-flash-cards-busy-little-bugs-fruit.png" alt="Norway" style="width:100%"> -->
     <img src="img/TablaFrutas.png" alt="Norway" style="width:100%">
 </div>
+<br>
 @stop
 
 @section('ejemplos')
@@ -25,28 +26,29 @@
     <h3><b>Examples</b></h3>
 </div>
 <div class="w3-container text-center">
-    <div class="card border-warning mx-5 mb-3" style="width: 50%;">
-        <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
+    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
+        
         <div class="card-body">
             <h5 class="card-title">bob's house is a pinneaple</h5>
-            <p class="card-text"></p>
+            <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 50%;">
-        <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
+    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
+        
         <div class="card-body">
             <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-            <p class="card-text"></p>
+            <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 50%;">
-        <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
+    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
+        
         <div class="card-body">
             <h5 class="card-title">Plankton eats Cucumbers</h5>
-            <p class="card-text"></p>
+            <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
         </div>
     </div>
 </div>
+<br>
 
 @stop
 

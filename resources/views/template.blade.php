@@ -24,9 +24,6 @@
 </head>
 
 <body class="w3-light-grey">
-
-    <!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
     <div class="w3-content" style="max-width:1400px">
 
         <!-- Header -->
@@ -35,13 +32,12 @@ and is wrapped around the whole page content, except for the footer in this exam
             <p>Welcome to the page <span class="w3-tag">ISC</span></p>
         </header>
 
-        <!-- Grid -->
         <div class="w3-row">
 
-            <!-- Introduction menu -->
+            <!-- tabla de contenido -->
             <div class="w3-col l4">
 
-                <!-- About Card -->
+                <!-- nosotros -->
                 <div class="w3-card w3-margin w3-margin-top">
                     <img src="img/UPQ-logo.jpg" style="width:100%">
                     <div class="w3-container w3-white">
@@ -51,7 +47,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <hr>
 
-                <!-- Posts -->
+                <!-- Menu -->
                 <div class="w3-card w3-margin">
                     <div class="w3-container w3-padding">
                         <h4>Topics</h4>
@@ -92,49 +88,41 @@ and is wrapped around the whole page content, except for the footer in this exam
                     </ul>
                 </div>
                 <hr>
-
-
-                <!-- END Introduction Menu -->
+                <!-- Fin tabla contenido -->
             </div>
-            <!-- Blog entries -->
+
             <div class="w3-col l8 s12">
-                <!-- Blog entry -->
+                <!-- Titulo de topico -->
                 <div class="w3-card-4 w3-margin w3-white">
                     @yield('titulo')
                 </div>
                 <hr>
-                <!-- Tabla de frutas -->
+                <!-- vocabulario -->
                 <div class="w3-card-4 w3-margin w3-white">
                     @yield('contenido')
                 </div>
 
-                <!-- Blog entry -->
+                <!-- Ejemplos -->
                 <div class="w3-card-4 w3-margin w3-white">
-                        @yield('ejemplos')
+                    @yield('ejemplos')
                 </div>
-
+                <!-- Video -->
                 <div class="w3-card-4 w3-margin w3-white">
                     @yield('videos')
-            </div>
-                <!-- Blog entry -->
+                </div>
+                <!-- Juego -->
                 <div class="w3-card-4 w3-margin w3-white">
                     @yield('juego')
                 </div>
-                <!-- END BLOG ENTRIES -->
             </div>
-
             <!-- END GRID -->
         </div><br>
-
-        <!-- END w3-content -->
     </div>
 
     <!-- Footer -->
     <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

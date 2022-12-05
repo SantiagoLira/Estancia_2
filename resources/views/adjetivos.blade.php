@@ -27,9 +27,11 @@
     <h3><b>Examples</b></h3>
 </div>
 <div class="text-center">
-    <img src="img/ejemplosAdjetivos1.png" alt="Norway" style="width:50%">
-    <img src="img/ejemplosAdjetivos2.png" alt="Norway" style="width:50%">
+    <img src="img/ejemplosAdjetivos1.png" alt="Norway" style="width:90%">
+    <img src="img/ejemplosAdjetivos2.png" alt="Norway" style="width:90%">
+
 </div>
+<br>
 @stop
 @section('videos')
 <div class="w3-container">
@@ -41,28 +43,23 @@
 @stop
 
 @section('juego')
-<!-- <script type="text/javascript">
-    function myFunction() {
-        var x = document.getElementById("game");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
+<script type="text/javascript">
+    function cerrarJuego() {
+        location.reload();
     }
-</script> -->
+</script>
 
 <div class="modal fade" id="Game" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Game" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Colors</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Adjectives</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="cerrarJuego()"></button>
             </div>
             <div class="modal-body">
                 <div class="text-center" id="game">
+                    <iframe src="https://scratch.mit.edu/projects/771967011/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-                    <iframe src="https://scratch.mit.edu/projects/767232971/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -79,7 +76,7 @@
             Start
         </button>
     </div>
-
+    <br>
     <!-- <button class="btn btn-success" onclick="myFunction()">Start</button> -->
 </div>
 
