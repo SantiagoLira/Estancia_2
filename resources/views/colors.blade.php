@@ -6,8 +6,45 @@
         location.reload();
     }
 
-    function carga_sonido() {
-        document.getElementById('contenedor').innerHTML = '<embed src="archivo.mp3" autostart="true" />'
+    function play_audio(task) {
+
+        const expr = task;
+        switch (expr) {
+            case '1':
+                var audio = new Audio('colores/Yellow.mp3');
+                break;
+            case '2':
+                var audio = new Audio('colores/Blue.mp3');
+                break;
+            case '3':
+                var audio = new Audio('colores/White.mp3');
+                break;
+            case '4':
+                var audio = new Audio('colores/Brown.mp3');
+                break;
+            case '5':
+                var audio = new Audio('colores/Gray.mp3');
+                break;
+            case '6':
+                var audio = new Audio('colores/Orange.mp3');
+                break;
+            case '7':
+                var audio = new Audio('colores/Black.mp3');
+                break;
+            case '8':
+                var audio = new Audio('colores/Red.mp3');
+                break;
+            case '9':
+                var audio = new Audio('colores/Pink.mp3');
+                break;
+            case '10':
+                var audio = new Audio('colores/Green.mp3');
+                break;
+            default:
+                console.log(`Sorry, we are out of ${expr}.`);
+        }
+        audio.play();
+
     }
 </script>
 
@@ -32,17 +69,66 @@
 @stop
 
 @section('ejemplos')
-<div class="w3-container">
-    <h3><b>Examples</b></h3>
+<div class="w3-container text-center">
+    <h3><b>Pronunciation</b></h3>
+    <p>Click to play!</p>
 </div>
-<div class="container-xl">100% wide until extra large breakpoint
-<div class="btn-group">
-<button class="reproductor" onclick="audio()">Reproduce tu audio</button>
-  <a href="#" class="btn btn-primary">Link</a>
-  <a href="#" class="btn btn-primary">Link</a>
-</div>
-    
+<div class="w3-container text-center">
+    <div class="row ml-1">
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/amarillo.png" class="card-img-top" onclick="play_audio('1')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/azul.png" class="card-img-top" onclick="play_audio('2')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/blanco.png" class="card-img-top" onclick="play_audio('3')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/cafe.png" class="card-img-top" onclick="play_audio('4')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/gris.png" class="card-img-top" onclick="play_audio('5')" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="row ml-1">
 
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/naranja.png" class="card-img-top" onclick="play_audio('6')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/negro.png" class="card-img-top" onclick="play_audio('7')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/rojo.png" class="card-img-top" onclick="play_audio('8')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/rosa.png" class="card-img-top" onclick="play_audio('9')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning  mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="colores/verde.png" class="card-img-top" onclick="play_audio('10')" alt="...">
+            </div>
+        </div>
+    </div>
 </div>
 <br>
 @stop

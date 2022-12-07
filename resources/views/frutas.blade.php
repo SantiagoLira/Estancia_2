@@ -79,23 +79,81 @@
 
 @section('ejemplos')
 <div class="w3-container text-center">
-    <h3><b>Examples</b></h3>
-    <p>clic to play</p>
+    <h3><b>Pronunciation</b></h3>
+    <p>click to play</p>
 </div>
 <div class="w3-container text-center">
-    <div class="card border-warning mx-5 mb-3 shadow" style="width: 20%;">
-        <div class="card-body">
-            <img src="frutas/apple.png" class="card-img-top" onclick="play_audio('1')" alt="...">
+    <div class="row ml-1">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/apple.png" class="card-img-top" onclick="play_audio('1')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/banana.png" class="card-img-top" onclick="play_audio('2')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/cherries.png" class="card-img-top" onclick="play_audio('3')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/coconut.png" class="card-img-top" onclick="play_audio('4')" alt="...">
+            </div>
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3 shadow" style="width: 20%;">
-        <div class="card-body">
-            <img src="frutas/banana.png" class="card-img-top" onclick="play_audio('2')" alt="...">
+    <div class="row">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/grapes.png" class="card-img-top" onclick="play_audio('5')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/lemon.png" class="card-img-top" onclick="play_audio('6')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/Mango.png" class="card-img-top" onclick="play_audio('7')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/orange.png" class="card-img-top" onclick="play_audio('8')" alt="...">
+            </div>
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3 shadow" style="width: 20%;">
-        <div class="card-body">
-            <img src="frutas/cherries.png" class="card-img-top" onclick="play_audio('3')" alt="...">
+    <div class="row">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/peach.png" class="card-img-top" onclick="play_audio('9')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/pear.png" class="card-img-top" onclick="play_audio('10')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/pineeaple.png" class="card-img-top" onclick="play_audio('11')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/strawberry.png" class="card-img-top" onclick="play_audio('12')" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="frutas/watermelon.png" class="card-img-top" onclick="play_audio('13')" alt="...">
+            </div>
         </div>
     </div>
 

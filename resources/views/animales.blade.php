@@ -1,6 +1,59 @@
 @extends('template')
 
 @section('titulo')
+<script type="text/javascript">
+    function cerrarJuego() {
+        location.reload();
+    }
+
+    function play_audio(task) {
+
+        const expr = task;
+        switch (expr) {
+            case '1':
+                var audio = new Audio('animales/Whole.mp3');
+                break;
+            case '2':
+                var audio = new Audio('animales/Squid.mp3');
+                break;
+            case '3':
+                var audio = new Audio('animales/Crab.mp3');
+                break;
+            case '4':
+                var audio = new Audio('animales/Dolphin.mp3');
+                break;
+            case '5':
+                var audio = new Audio('animales/Starfish.mp3');
+                break;
+            case '6':
+                var audio = new Audio('animales/Lobster.mp3');
+                break;
+            case '7':
+                var audio = new Audio('animales/Jellyfish.mp3');
+                break;
+            case '8':
+                var audio = new Audio('animales/Octopus.mp3');
+                break;
+            case '9':
+                var audio = new Audio('animales/Shark.mp3');
+                break;
+            case '10':
+                var audio = new Audio('animales/Sponge.mp3');
+                break;
+            case '11':
+                var audio = new Audio('animales/Turtle.mp3');
+                break;
+            case '12':
+                var audio = new Audio('animales/Seahorese.mp3');
+                break;
+            default:
+                console.log(`Sorry, we are out of ${expr}.`);
+        }
+        audio.play();
+
+    }
+</script>
+
 <img src="img/animalesMain.png" alt="Nature" style="width:100%">
 <div class="w3-container">
     <h3 class="text-center"><b>Animals</b></h3>
@@ -14,38 +67,83 @@
 </div>
 
 <div class="w3-container">
-    <img src="img/AnimalsChart.png" alt="Norway" style="width:100%">
+    <img src="img/animalMar.png" alt="Norway" style="width:100%">
 </div>
 <br>
 @stop
 
 @section('ejemplos')
-<div class="w3-container">
-    <h3><b>Examples</b></h3>
+<div class="w3-container text-center">
+    <h3><b>Pronunciation</b></h3>
+    <p>Click to play!</p>
 </div>
-<div class="text-center">
-    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
-        <div class="card-body">
-            <h5 class="card-title">Sea animals</h5>
-            <img src="img/animalMar.png" class="card-img-top" alt="...">
-
+<div class="w3-container text-center">
+    <div class="row ml-1">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/ballena.png" class="card-img-top" onclick="play_audio('1')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/calamar.png" class="card-img-top" onclick="play_audio('2')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/crab.png" class="card-img-top" onclick="play_audio('3')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/delfin.png" class="card-img-top" onclick="play_audio('4')" alt="...">
+            </div>
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
-
-        <div class="card-body">
-            <h5 class="card-title">Farm animals</h5>
-            <img src="img/animalFarm.png" class="card-img-top" alt="...">
+    <div class="row">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/estrella.png" class="card-img-top" onclick="play_audio('5')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/langosta.png" class="card-img-top" onclick="play_audio('6')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/medusa.png" class="card-img-top" onclick="play_audio('7')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/pulpo.png" class="card-img-top" onclick="play_audio('8')" alt="...">
+            </div>
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
-
-        <div class="card-body">
-            <h5 class="card-title">Forest animals</h5>
-            <img src="img/animalbosque.png" class="card-img-top" alt="...">
+    <div class="row">
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/shark.png" class="card-img-top" onclick="play_audio('9')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/sponga.png" class="card-img-top" onclick="play_audio('10')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/tortuga.png" class="card-img-top" onclick="play_audio('11')" alt="...">
+            </div>
+        </div>
+        <div class="card border-warning mx-3 mb-3 shadow" style="width: 20%;">
+            <div class="card-body">
+                <img src="animales/caballo.png" class="card-img-top" onclick="play_audio('12')" alt="...">
+            </div>
         </div>
     </div>
-    <br>
 </div>
 @stop
 
@@ -59,11 +157,7 @@
 @stop
 
 @section('juego')
-<script type="text/javascript">
-    function cerrarJuego() {
-        location.reload();
-    }
-</script>
+
 
 <div class="modal fade" id="Game" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Game" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -89,7 +183,7 @@
 
     <div class="d-grid gap-2">
         <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#Game">
-        <i class="bi bi-play"></i>Start
+            <i class="bi bi-play"></i>Start
         </button>
         <br>
     </div>
