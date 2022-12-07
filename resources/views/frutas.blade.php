@@ -1,6 +1,62 @@
 @extends('template')
 
 @section('titulo')
+<script type="text/javascript">
+    function cerrarJuego() {
+        location.reload();
+    }
+
+    function play_audio(task) {
+
+        const expr = task;
+        switch (expr) {
+            case '1':
+                var audio = new Audio('frutas/Apple.mp3');
+                break;
+            case '2':
+                var audio = new Audio('frutas/Banana.mp3');
+                break;
+            case '3':
+                var audio = new Audio('frutas/Cherries.mp3');
+                break;
+            case '4':
+                var audio = new Audio('frutas/Coconut.mp3');
+                break;
+            case '5':
+                var audio = new Audio('frutas/Grapes.mp3');
+                break;
+            case '6':
+                var audio = new Audio('frutas/Lemon.mp3');
+                break;
+            case '7':
+                var audio = new Audio('frutas/Mango.mp3');
+                break;
+            case '8':
+                var audio = new Audio('frutas/Orange.mp3');
+                break;
+            case '9':
+                var audio = new Audio('frutas/Peach.mp3');
+                break;
+            case '10':
+                var audio = new Audio('frutas/Pear.mp3');
+                break;
+            case '11':
+                var audio = new Audio('frutas/pineeaple.mp3');
+                break;
+            case '12':
+                var audio = new Audio('frutas/strawberry.mp3');
+                break;
+            case '13':
+                var audio = new Audio('frutas/Watermelon.mp3');
+                break;
+            default:
+                console.log(`Sorry, we are out of ${expr}.`);
+        }
+        audio.play();
+
+    }
+</script>
+
 <img src="img/frutasMain.jpg" alt="Nature" style="width:100%">
 <div class="w3-container">
     <h3 class="text-center"><b>Fruits</b></h3>
@@ -22,31 +78,27 @@
 @stop
 
 @section('ejemplos')
-<div class="w3-container">
+<div class="w3-container text-center">
     <h3><b>Examples</b></h3>
+    <p>clic to play</p>
 </div>
 <div class="w3-container text-center">
-    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
-        
+    <div class="card border-warning mx-5 mb-3 shadow" style="width: 20%;">
         <div class="card-body">
-            <h5 class="card-title">bob's house is a pinneaple</h5>
-            <img src="bob/Diapositiva2.jpg" class="card-img-top" alt="...">
+            <img src="frutas/apple.png" class="card-img-top" onclick="play_audio('1')" alt="...">
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
-        
+    <div class="card border-warning mx-5 mb-3 shadow" style="width: 20%;">
         <div class="card-body">
-            <h5 class="card-title">The sandy's favorite fruit is Orange</h5>
-            <img src="bob/Diapositiva3.jpg" class="card-img-top" alt="...">
+            <img src="frutas/banana.png" class="card-img-top" onclick="play_audio('2')" alt="...">
         </div>
     </div>
-    <div class="card border-warning mx-5 mb-3" style="width: 90%;">
-        
+    <div class="card border-warning mx-5 mb-3 shadow" style="width: 20%;">
         <div class="card-body">
-            <h5 class="card-title">Plankton eats Cucumbers</h5>
-            <img src="bob/Diapositiva4.jpg" class="card-img-top" alt="...">
+            <img src="frutas/cherries.png" class="card-img-top" onclick="play_audio('3')" alt="...">
         </div>
     </div>
+
 </div>
 <br>
 
@@ -61,11 +113,7 @@
 </div>
 @stop
 @section('juego')
-<script type="text/javascript">
-    function cerrarJuego() {
-        location.reload();
-    }
-</script>
+
 
 <div class="w3-container text-center">
     <h3><b>Game</b></h3>

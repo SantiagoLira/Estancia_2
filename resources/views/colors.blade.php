@@ -1,6 +1,17 @@
 @extends('template')
 
 @section('titulo')
+<script type="text/javascript">
+    function cerrarJuego() {
+        location.reload();
+    }
+
+    function carga_sonido() {
+        document.getElementById('contenedor').innerHTML = '<embed src="archivo.mp3" autostart="true" />'
+    }
+</script>
+
+
 <img src="img/coloresMain.jpg" alt="Nature" style="width:100%">
 <div class="w3-container">
     <h3 class="text-center"><b>Colors</b></h3>
@@ -15,7 +26,7 @@
 </div>
 
 <div class="w3-container">
-<img src="img/colores.jpg" alt="Norway" style="width:100%">
+    <img src="img/colores.jpg" alt="Norway" style="width:100%">
 </div>
 <br>
 @stop
@@ -24,9 +35,14 @@
 <div class="w3-container">
     <h3><b>Examples</b></h3>
 </div>
-<div class="text-center">
-<img src="img/coloresBob.png" alt="Norway" style="width:100%">
+<div class="container-xl">100% wide until extra large breakpoint
+<div class="btn-group">
+<button class="reproductor" onclick="audio()">Reproduce tu audio</button>
+  <a href="#" class="btn btn-primary">Link</a>
+  <a href="#" class="btn btn-primary">Link</a>
+</div>
     
+
 </div>
 <br>
 @stop
@@ -35,16 +51,12 @@
     <h3 class="text-center"><b>Video</b></h3>
 </div>
 <div class="w3-container text-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XI6e7rYdQPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XI6e7rYdQPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 @stop
 
 @section('juego')
-<script type="text/javascript">
-    function cerrarJuego() {
-        location.reload();
-    }
-</script>
+
 
 <div class="modal fade" id="Game" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Game" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -62,7 +74,7 @@
 
         </div>
     </div>
-</div>  
+</div>
 
 
 <div class="w3-container text-center">
@@ -70,7 +82,7 @@
 
     <div class="d-grid gap-2">
         <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#Game">
-        <i class="bi bi-play"></i>Start
+            <i class="bi bi-play"></i>Start
         </button>
     </div>
 
